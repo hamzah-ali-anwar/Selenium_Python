@@ -1,0 +1,35 @@
+CSS: <input name="txtUserValue" id="user" type="text">
+
+1. input -> Element
+2. name, id, type -> Attribute
+3. txtUserValue, user, text -> value 
+
+# 1. tag Id
+# 2. tag class 
+# 3. tag attribute
+# 4. tag class attribute
+
+XPATH:
+
+1. Absolute/Full XPATH
+2. Relative/Partial XPATH
+
+Difference between Absolute & Relative XPATH's:
+
+1. Absolute xpath starts from root html: /html/body/nav/div/div/div[2]/ul/li[2]/a/button
+2. Relative xpath directly jump to element on DOM: //*[@id="navbarSupportedContent"]/div[2]/ul/li[2]/a/button
+
+1. Absolute xpath starts with /
+2. Relative xpath starts with //
+
+1. In absolute xpath we only use tags/nodes
+2. In Relative xpath we use attributes
+
+XPATH OPTIONS:
+
+1. or
+2. and
+3. contains
+4. starts-with
+5. text
+
